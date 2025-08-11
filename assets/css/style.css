@@ -348,3 +348,49 @@ body {
 }
 
 /*end offer*/
+
+/*start concerning*/
+
+
+
+.concerning_items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.concerning_box{
+    padding: 120px 0px;
+}
+
+.concerning_title{
+    font-size: 27px;
+}
+
+.concerning_text{
+    color: #0e0e0e;
+    font-size: 50px;
+    line-height: 50px;
+    padding: 40px 0;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.concerning_info{
+    padding-bottom: 60px;
+    line-height: 1.4;
+    color: #6b6b6b;
+}
+
+.concerning_option{
+    padding-top: 60px;
+}
+
+.right{
+    width: 33%;
+}
+
+.concerning_left_item img{
+    width: 97;
+}
+/*end concerningr*/
+
