@@ -7,6 +7,11 @@ body {
     height: 3000px;
 }
 
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
 /*start fonts*/
 
 .pacifico_font {
@@ -52,8 +57,6 @@ body {
 
 .nav_box {
     background-color: #a5141a;
-    width: 90%;
-    margin: 0 auto;
     padding: 33px 0px;
     border-radius: 0 0 50px 50px;
 }
@@ -182,9 +185,6 @@ body {
 }
 
 .header_box {
-    /* background-color: blue; */
-    width: 90%;
-    margin: 0 auto;
     height: 90%;
     display: flex;
 }
@@ -227,9 +227,6 @@ body {
 }
 
 .category_box {
-    /* background-color: red; */
-    width: 90%;
-    margin: 0 auto;
     padding: 76px 0px;
 }
 
@@ -275,8 +272,6 @@ body {
 }
 
 .offer_box {
-    width: 90%;
-    margin: 0 auto;
     padding: 120px 0;
 }
 
