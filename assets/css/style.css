@@ -387,6 +387,16 @@ body {
     width: 33%;
 }
 
+.right h2 {
+    font-size: 65px;
+    letter-spacing: 1.2;
+    line-height: 1;
+}
+
+.setting_padding {
+    padding: 60px 0px !important;
+}
+
 .concerning_left_item img {
     width: 97;
 }
@@ -627,7 +637,7 @@ body {
 
 /*start feedback*/
 
-.feedback{
+.feedback {
     background-image: url("../images/special-bg\ \(1\).jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -636,14 +646,14 @@ body {
     padding: 120px 0px;
 }
 
-.feedback_items{
+.feedback_items {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 50px;
 }
 
-.feedback_item{
+.feedback_item {
     background-color: #fff;
     width: 49%;
     text-align: center;
@@ -652,25 +662,25 @@ body {
     margin: 15px 0px;
 }
 
-.feedback_item p{
+.feedback_item p {
     font-size: 18px;
     color: #6b6b6b;
     line-height: 1.7;
 }
 
-.item_img_name img{
+.item_img_name img {
     width: 80px;
     height: 80px;
     border-radius: 50%;
     margin-right: 20px;
 }
 
-.item_img_name span{
+.item_img_name span {
     font-size: 18px;
     font-weight: 700;
 }
 
-.item_img_name{
+.item_img_name {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -678,3 +688,40 @@ body {
 }
 
 /*end feedback*/
+
+/*start download*/
+
+.download {
+    background-color: #a5141a;
+    padding: 25px 0px;
+}
+
+.download a {
+    background-color: #ffb91a;
+    width: 175px;
+    font-size: 19px;
+    transition-duration: 0.19s;
+    padding: 18px 0px;
+}
+
+.download a:hover {
+    background: #fff;
+    color: #333;
+}
+
+.download_items {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.download_items p {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+/*end download*/
