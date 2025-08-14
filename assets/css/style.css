@@ -428,30 +428,30 @@ body {
 
 /*start point*/
 
-.points{
+.points {
     background-color: #ffb91a;
     padding: 15px 0px;
 }
 
-.point_item{
+.point_item {
     width: 20%;
 }
 
-.point_number{
+.point_number {
     display: block;
     color: #fff;
     font-size: 50px;
     font-weight: 600;
 }
 
-.point_text{
+.point_text {
     color: #fff;
     font-size: 18px;
     display: block;
     padding-bottom: 30px;
 }
 
-.points_items{
+.points_items {
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -461,55 +461,55 @@ body {
 
 /*start dishes*/
 
-.right{
+.right {
     width: 49%;
 }
 
-.dishes{
+.dishes {
     margin: 120px 0px;
 }
 
-.dish_option{
+.dish_option {
     background-color: #a5141a;
     color: #fff;
     border-radius: 14px;
     padding: 60px 55px;
 }
 
-.dish_option h3{
+.dish_option h3 {
     font-size: 50px;
     font-weight: 400;
     margin-top: 15px;
 }
 
-.first_dish{
+.first_dish {
     margin: 36px 0px;
 }
 
-.dishes_items{
+.dishes_items {
     display: flex;
     justify-content: space-between;
 }
 
-.dish_img{
+.dish_img {
     width: 49%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.dish_img img{
+.dish_img img {
     width: 100%;
 }
 
-.dish_option span{
+.dish_option span {
     font-size: 25px;
     letter-spacing: 1px;
     display: block;
     padding-bottom: 13px;
 }
 
-.dish_option p{
+.dish_option p {
     font-size: 15px;
 }
 
@@ -522,39 +522,39 @@ body {
     padding: 100px 0px;
 }
 
-.top_section{
+.top_section {
     text-align: center;
 }
 
-.top_section .recommend_title{
+.top_section .recommend_title {
     display: block;
     font-size: 28px;
 }
 
-.recommnd_today{
+.recommnd_today {
     font-size: 50px;
     padding: 40px 0px;
     display: block;
 }
 
-.top_section p{
+.top_section p {
     color: #6b6b6b;
     font-size: 17px;
 }
 
-.recommend_items{
+.recommend_items {
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.recommend_item{
+.recommend_item {
     background-color: #fff;
     width: 49%;
     display: flex;
     padding: 22px 0px;
-    box-shadow: rgba(149, 157, 165, .2) 0 8px 24px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
     border-radius: 15px;
     justify-content: space-around;
     margin: 15px 0px;
@@ -562,33 +562,33 @@ body {
     transition-duration: 0.3s;
 }
 
-.recommend_item:hover{
+.recommend_item:hover {
     border: 1px solid #ffb91a;
 }
 
-.recommend_item_img{
+.recommend_item_img {
     width: 50%;
 }
 
-.recommend_item_img img{
+.recommend_item_img img {
     width: 80%;
 }
 
-.recommend_item_text{
+.recommend_item_text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width:40%
+    width: 40%;
 }
 
-.recommend_item_text h3{
+.recommend_item_text h3 {
     color: #383838;
     font-size: 25px;
     line-height: 25px;
     letter-spacing: 1px;
 }
 
-.recommend_item_text span{
+.recommend_item_text span {
     color: #a5141a;
     font-size: 25px;
     line-height: 25px;
@@ -596,13 +596,13 @@ body {
     margin: 25px 0px;
 }
 
-.recommend_item_text p{
+.recommend_item_text p {
     color: #6b6b6b;
     font-size: 15px;
     line-height: 24px;
 }
 
-.recommend_item_text a{
+.recommend_item_text a {
     color: #383838;
     font-size: 19px;
     line-height: 30px;
@@ -611,3 +611,16 @@ body {
 }
 
 /*end recommend*/
+
+/*start popular*/
+
+.popular {
+    background: linear-gradient(#00000042, #0000008a),
+        url("../images/fav-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 122px 0px;
+}
+
+/*end popular*/
