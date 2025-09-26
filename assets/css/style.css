@@ -972,6 +972,38 @@ body {
     }
 
     /*end category*/
+
+    /*start offer*/
+
+    .offer_box {
+        padding: 100px 0;
+    }
+
+    .item_option_title {
+        font-size: 30px;
+    }
+
+    .item_option_text {
+        font-size: 12x;
+    }
+
+    .item_option span {
+        font-size: 28px;
+    }
+
+    .item_option_right span {
+        font-size: 28px;
+    }
+
+    .left_item .item_option {
+        padding: 105px 60px;
+    }
+
+    .item_option_text {
+        width: 100%;
+    }
+
+    /*end offer*/
 }
 
 @media screen and (max-width: 767.98px) {
@@ -1044,6 +1076,10 @@ body {
 
     /*start category*/
 
+    .category_box {
+        padding: 30px 0px;
+    }
+
     .category_item img {
         width: 80px;
     }
@@ -1058,6 +1094,56 @@ body {
     }
 
     /*end category*/
+
+    /*start offer*/
+
+    .offer_box {
+        padding: 60px 0;
+    }
+
+    .left_item {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .right_item {
+        width: 100%;
+    }
+
+    .item_option {
+        padding: 60px 60px;
+    }
+
+    .item_option_title {
+        font-size: 28px;
+    }
+
+    .item_option_text {
+        font-size: 13px;
+    }
+
+    .item_option span {
+        font-size: 25px;
+    }
+
+    .item_option_right span {
+        font-size: 25px;
+    }
+
+    .right_item {
+        width: 100%;
+        height: 545px;
+    }
+
+    .offer_items {
+        display: block;
+    }
+
+    .left_item .item_option {
+        padding: 60px 60px;
+    }
+
+    /*end offer*/
 }
 
 @media screen and (max-width: 575.98px) {
@@ -1157,6 +1243,60 @@ body {
     }
 
     /*end category*/
+
+    /*start offer*/
+
+    .offer_box {
+        padding: 60px 0;
+    }
+
+    .left_item {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .right_item {
+        width: 100%;
+    }
+
+    .item_option {
+        padding: 60px 60px;
+    }
+
+    .item_option_title {
+        font-size: 24px;
+    }
+
+    .item_option_text {
+        font-size: 11px;
+    }
+
+    .item_option span {
+        font-size: 20px;
+    }
+
+    .item_option_right span {
+        font-size: 20px;
+    }
+
+    .right_item {
+        width: 100%;
+        height: 425px;
+    }
+
+    .offer_items {
+        display: block;
+    }
+
+    .left_item .item_option {
+        padding: 40px 30px;
+    }
+
+    .item_option_right {
+        padding: 40px 30px;
+    }
+
+    /*end offer*/
 }
 
 /*end responsive*/
