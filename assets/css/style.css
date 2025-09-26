@@ -11,6 +11,7 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
 .container {
     width: 90%;
     margin: 0 auto;
@@ -120,6 +121,10 @@ html {
     width: 135px;
     display: flex;
     justify-content: flex-end;
+}
+
+.bar_icon{
+    display: none;
 }
 
 .shop_icon i:hover {
@@ -882,3 +887,125 @@ html {
 }
 
 /*end page up*/
+
+/*start responsive*/
+
+@media screen and (max-width: 991.98px) {
+    /*start nav*/
+
+    .nav_box {
+        padding: 15px 0px;
+    }
+
+    .social_links a {
+        padding: 0px 13px;
+        font-size: 15px;
+    }
+
+    .social_links a:hover {
+        font-size: 14px;
+        padding: 0px 13px;
+    }
+
+    .item_links a {
+        display: none;
+    }
+
+    .nav_items h3 {
+        display: none;
+    }
+
+    .shop_icon {
+        display: none;
+    }
+
+    .bar_icon{
+        display: block;
+    }
+    
+    /*end nav*/
+}
+
+@media (max-width: 767.98px) {
+    /*start nav*/
+
+    .container {
+        width:95%;
+        margin: 0 auto;
+    }
+
+    .nav_box {
+        padding: 10px 0px;
+    }
+
+    .social_links a {
+        padding: 0px 15px;
+        font-size: 15px;
+    }
+
+    .social_links a:hover {
+        font-size: 15px;
+        padding: 0px 15px;
+    }
+
+    .item_links a {
+        display: none;
+    }
+
+    .nav_items h3 {
+        display: none;
+    }
+
+    .shop_icon {
+        display: none;
+    }
+
+    .bar_icon{
+        display: block;
+    }
+    
+    /*end nav*/
+}
+
+@media (max-width: 575.98px) {
+    /*start nav*/
+    
+    .container {
+        width:95%;
+        margin: 0 auto;
+    }
+
+    .nav_box {
+        padding: 10px 0px;
+    }
+
+    .social_links a {
+        padding: 0px 15px;
+        font-size: 15px;
+    }
+
+    .social_links a:hover {
+        font-size: 15px;
+        padding: 0px 15px;
+    }
+
+    .item_links a {
+        display: none;
+    }
+
+    .nav_items h3 {
+        display: none;
+    }
+
+    .shop_icon {
+        display: none;
+    }
+
+    .bar_icon{
+        display: block;
+    }
+    
+    /*end nav*/
+}
+
+/*end responsive*/
