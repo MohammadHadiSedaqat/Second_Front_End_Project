@@ -123,7 +123,7 @@ html {
     justify-content: flex-end;
 }
 
-.bar_icon{
+.bar_icon {
     display: none;
 }
 
@@ -919,18 +919,42 @@ html {
         display: none;
     }
 
-    .bar_icon{
+    .bar_icon {
         display: block;
     }
-    
+
     /*end nav*/
+
+    /*start header*/
+
+    .header_item_1 {
+        font-size: 42px;
+    }
+
+    .header_item_2 {
+        font-size: 100px;
+        line-height: 110px;
+    }
+
+    .links {
+        font-size: 16px;
+        padding: 12px 40px;
+        width: 30%;
+    }
+
+    .links:hover {
+        font-size: 16px;
+        padding: 12px 40px;
+    }
+
+    /*end header*/
 }
 
 @media (max-width: 767.98px) {
     /*start nav*/
 
     .container {
-        width:95%;
+        width: 95%;
         margin: 0 auto;
     }
 
@@ -960,18 +984,46 @@ html {
         display: none;
     }
 
-    .bar_icon{
+    .bar_icon {
         display: block;
     }
-    
+
     /*end nav*/
+
+    /*start header*/
+
+    .header {
+        height: 68vh;
+    }
+
+    .header_item_1 {
+        font-size: 35px;
+    }
+
+    .header_item_2 {
+        font-size: 85px;
+        line-height: 110px;
+    }
+
+    .links {
+        font-size: 16px;
+        padding: 12px 40px;
+        width: 35%;
+    }
+
+    .links:hover {
+        font-size: 16px;
+        padding: 12px 40px;
+    }
+
+    /*end header*/
 }
 
 @media (max-width: 575.98px) {
     /*start nav*/
-    
+
     .container {
-        width:95%;
+        width: 95%;
         margin: 0 auto;
     }
 
@@ -1001,11 +1053,39 @@ html {
         display: none;
     }
 
-    .bar_icon{
+    .bar_icon {
         display: block;
     }
-    
+
     /*end nav*/
+
+    /*start header*/
+
+    .header {
+        height: 55vh;
+    }
+
+    .header_item_1 {
+        font-size: 28px;
+    }
+
+    .header_item_2 {
+        font-size: 65px;
+        line-height: 70px;
+    }
+
+    .links {
+        font-size: 12px;
+        padding: 12px 30px;
+        width: 37%;
+    }
+
+    .links:hover {
+        font-size: 16px;
+        padding: 12px 40px;
+    }
+
+    /*end header*/
 }
 
 /*end responsive*/
