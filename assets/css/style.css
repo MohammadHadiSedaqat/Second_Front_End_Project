@@ -1080,6 +1080,35 @@ body {
     }
 
     /*end delivery*/
+
+    /*start point*/
+
+    .points {
+        padding: 15px 0px;
+    }
+
+    .point_item {
+        width: 20%;
+    }
+
+    .point_number {
+        font-size: 45px;
+        font-weight: 600;
+    }
+
+    .point_text {
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+
+    .points_items {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    /*end point*/
 }
 
 @media screen and (max-width: 767.98px) {
@@ -1297,6 +1326,35 @@ body {
     }
 
     /*end delivery*/
+
+    /*start point*/
+
+    .points {
+        padding: 12px 0px;
+    }
+
+    .point_item {
+        width: 50%;
+    }
+
+    .point_number {
+        font-size: 45px;
+        font-weight: 600;
+    }
+
+    .point_text {
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+
+    .points_items {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    /*end point*/
 }
 
 @media screen and (max-width: 575.98px) {
@@ -1530,6 +1588,33 @@ body {
         font-size: 8px;
     }
     /*end delivery*/
+
+    .points {
+        padding: 12px 0px;
+    }
+
+    .point_item {
+        width: 50%;
+    }
+
+    .point_number {
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    .point_text {
+        font-size: 14px;
+        padding-bottom: 30px;
+    }
+
+    .points_items {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    /*end point*/
 }
 
 /*end responsive*/
