@@ -645,6 +645,10 @@ body {
     padding: 122px 0px !important;
 }
 
+.popular h2{
+    font-size: 100px;
+}
+
 /*end popular*/
 
 /*start feedback*/
@@ -1274,6 +1278,11 @@ body {
         padding: 80px 0px !important;
     }
 
+    .popular h2{
+        font-size: 80px;
+    }
+    
+
     /*end popular*/
 }
 
@@ -1685,6 +1694,11 @@ body {
         background-size: cover;
         padding: 60px 0px !important;
     }
+
+    .popular h2{
+        font-size: 65px;
+    }
+    
 
     /*end popular*/
 }
@@ -2111,6 +2125,10 @@ body {
         background-repeat: no-repeat;
         background-size: cover;
         padding: 40px 0px !important;
+    }
+
+    .popular h2{
+        font-size: 50px;
     }
 
     /*end popular*/
