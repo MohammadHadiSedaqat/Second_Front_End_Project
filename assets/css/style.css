@@ -642,7 +642,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 122px 0px;
+    padding: 122px 0px !important;
 }
 
 /*end popular*/
@@ -1262,6 +1262,19 @@ body {
     }
 
     /*end recommend*/
+
+    /*start popular*/
+
+    .popular {
+        background: linear-gradient(#00000042, #0000008a),
+            url("../images/fav-bg.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 80px 0px !important;
+    }
+
+    /*end popular*/
 }
 
 @media screen and (max-width: 767.98px) {
@@ -1661,6 +1674,19 @@ body {
     }
 
     /*end recommend*/
+
+    /*start popular*/
+
+    .popular {
+        background: linear-gradient(#00000042, #0000008a),
+            url("../images/fav-bg.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 60px 0px !important;
+    }
+
+    /*end popular*/
 }
 
 @media screen and (max-width: 575.98px) {
@@ -2075,6 +2101,19 @@ body {
     }
 
     /*end recommend*/
+
+    /*start popular*/
+
+    .popular {
+        background: linear-gradient(#00000042, #0000008a),
+            url("../images/fav-bg.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 40px 0px !important;
+    }
+
+    /*end popular*/
 }
 
 /*end responsive*/
